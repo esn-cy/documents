@@ -67,11 +67,27 @@ third parties.
 
 ---
 
-### :lucide-clock: 3. Standing Orders *(Coming Soon)*
+### :lucide-badge-check: 3. Standing Orders (as of GA October 2026)
 
-The **Standing Orders** establish guidelines and rules for the day-to-day operations of our organisation.
+The **Standing Orders** establish operational rules, administrative procedures, and internal governance frameworks that
+bridge statutory law with day-to-day work across ESN Cyprus. They codify custom practices, clarify volunteer rights and
+obligations, structure the General Assembly cycle, and regulate event management and financial compliance.
 
-> *Status: In preparation for deployment.*
+* [:lucide-file-text: Table of Contents](standing-orders/table-of-contents.md)
+* [:lucide-book-open: Foreword](standing-orders/foreword.md) *(Introductory address by the National Board of ESN Cyprus
+  2025/26)*
+* [:lucide-circle-arrow-right: Chapter I – Volunteer Membership](standing-orders/chapter-1.md) *(Galaxy portal
+  registration, active member rights & obligations, and alumni status)*
+* [:lucide-circle-arrow-right: Chapter II – General Assembly Framework](standing-orders/chapter-2.md) *(Voting
+  integrity, GDPR compliance, Chairing Team roles, and annual GA calendar)*
+* [:lucide-circle-arrow-right: Chapter III – Board Supporters](standing-orders/chapter-3.md) *(Position duties,
+  recruitment cycles, interim trial periods, GA ratification, and removals)*
+* [:lucide-circle-arrow-right: Chapter IV – Functional Operations](standing-orders/chapter-4.md) *(Third-party events,
+  reimbursement processes, Organising Committees (OCs), teams, and GDPR compliance)*
+* [:lucide-circle-arrow-right: Chapter V – Administration](standing-orders/chapter-5.md) *(Volunteer consultations,
+  Candidate Sections & national expansion, international projects, and position handovers)*
+* [:lucide-circle-arrow-right: Chapter VI – Transitional Clauses](standing-orders/chapter-6.md) *(Amendment thresholds
+  and official entry into force)*
 
 ---
 

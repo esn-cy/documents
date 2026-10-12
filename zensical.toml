@@ -8,7 +8,6 @@ copyright = "Copyright &copy; 2026 ESN Cyprus"
 
 repo_url = "https://github.com/esn-cy/documents"
 repo_name = "esn-cy/documents"
-# edit_uri = "edit/main/docs/"
 
 nav = [
   { "Home" = "index.md" },
@@ -36,6 +35,18 @@ nav = [
       "code-of-conduct/article-5.md",
       "code-of-conduct/article-6.md"
     ]
+  },
+  {
+    "Standing Orders" = [
+      "standing-orders/table-of-contents.md",
+      "standing-orders/foreword.md",
+      "standing-orders/chapter-1.md",
+      "standing-orders/chapter-2.md",
+      "standing-orders/chapter-3.md",
+      "standing-orders/chapter-4.md",
+      "standing-orders/chapter-5.md",
+      "standing-orders/chapter-6.md"
+    ]
   }
 ]
 
@@ -61,7 +72,7 @@ features = [
   "search.highlight",
 ]
 
-# [project.theme.font]
+[project.theme.font]
 text = "Lato"
 code = "Jetbrains Mono"
 
