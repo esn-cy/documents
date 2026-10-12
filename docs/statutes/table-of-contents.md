@@ -1,3 +1,7 @@
+---
+icon: lucide/file-text
+---
+
 # Table of Contents
 
 [**Chapter A - General**](chapter-a.md)

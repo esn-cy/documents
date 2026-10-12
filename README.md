@@ -28,7 +28,7 @@ The repository is rolling out in consecutive phases according to regulatory hier
 | Document            | Description                                                                                         | Status       |
 |:--------------------|:----------------------------------------------------------------------------------------------------|:-------------|
 | **Statutes**        | The core constitutional charter of ESN Cyprus registered under Cypriot law.                         | **Live**     |
-| **Code of Conduct** | Ethical standards, volunteer expectations, safety, and disciplinary guidelines.                     | **Upcoming** |
+| **Code of Conduct** | Behavioural expectations, anti-discrimination standards, reporting procedures, and sanctions.       | **Live**     |
 | **Standing Orders** | Procedural rules for National Assemblies, voting rules, and day-to-day governance.                  | **Upcoming** |
 | **Policy Papers**   | Operational guidelines and standard procedures governing internal workflows and section operations. | **Upcoming** |
 

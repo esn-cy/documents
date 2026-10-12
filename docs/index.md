@@ -18,7 +18,7 @@ direct, transparent access to up-to-date legal frameworks.
 
 Our documentation is structured hierarchically. The repository is rolling out in scheduled stages:
 
-### :material-check-decagram:{ .md-accent } 1. Statutes (as of GA November 2025)
+### :lucide-badge-check: 1. Statutes (as of GA November 2025)
 
 The **Statutes** constitute the foundational constitutional charter of Erasmus Student Network Cyprus, registered in the
 Republic of Cyprus. They define our legal identity, objectives, membership categories, administrative bodies, and
@@ -44,12 +44,26 @@ high-level governance rules.
 
 ---
 
-### :lucide-clock: 2. Code of Conduct *(Coming Soon)*
+### :lucide-badge-check: 2. Code of Conduct (as of eGA June 2024)
 
 The **Code of Conduct** sets the behavioural expectations, ethical standards, safety principles, and dispute-resolution
-mechanisms across all national activities, physical events, and digital communication channels.
+mechanisms across all activities, events, and communication channels connected with ESN Cyprus. Endorsing the standards
+of ESN International, it guarantees a safe, inclusive, and respectful environment for all volunteers, students, and
+third parties.
 
-> *Status: In preparation for deployment.*
+* [:lucide-file-text: Table of Contents](code-of-conduct/table-of-contents.md)
+* [:lucide-circle-arrow-right: Article 1 – Preamble](code-of-conduct/article-1.md) *(Dignity, non-discrimination,
+  diversity, and endorsement of ESN International standards)*
+* [:lucide-circle-arrow-right: Article 2 – Scope of Application](code-of-conduct/article-2.md) *(Application to
+  volunteers, students, physical/online events, and external representation)*
+* [:lucide-circle-arrow-right: Article 3 – Behaviours](code-of-conduct/article-3.md) *(Anti-discrimination standards and
+  strict prohibition of bullying, harassment, violence, and defamation)*
+* [:lucide-circle-arrow-right: Article 4 – Procedures](code-of-conduct/article-4.md) *(Violation reporting, on-site
+  Points of Contact, reporting form, anti-retaliation, and case inquiries)*
+* [:lucide-circle-arrow-right: Article 5 – Sanctions](code-of-conduct/article-5.md) *(Sanction scales, proportionality
+  criteria, National Board competence, and rights to appeal)*
+* [:lucide-circle-arrow-right: Article 6 – General Notes](code-of-conduct/article-6.md) *(Interim arbitration authority
+  of the National Board and alignment with the Statutes)*
 
 ---
 

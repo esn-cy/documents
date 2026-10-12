@@ -1,3 +1,7 @@
+---
+title: Membership Status
+---
+
 # Chapter B - Membership Status {#chapter-b-membership-status}
 
 ## 6. Members - Registration {#members-registration}

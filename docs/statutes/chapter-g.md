@@ -1,3 +1,7 @@
+---
+title: Financial Resources and Property
+---
+
 # Chapter G - Financial Resources and Property {#chapter-g-financial-resources-and-property}
 
 ## 25. Financial Control of the Association {#financial-control-of-the-association}

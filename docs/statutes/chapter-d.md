@@ -1,3 +1,7 @@
+---
+title: General Assembly
+---
+
 # Chapter D - General Assembly {#chapter-d-general-assembly}
 
 ## 12. General Assembly {#general-assembly}

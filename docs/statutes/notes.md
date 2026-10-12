@@ -1,3 +1,7 @@
+---
+title: Notes
+---
+
 # Notes {#notes}
 
 The present Statute, consisting of 30 Articles, was read at the General Assembly of the Association on 02/11/2025 and

@@ -25,6 +25,17 @@ nav = [
       "statutes/chapter-h.md",
       "statutes/notes.md"
     ]
+  },
+  {
+    "Code of Conduct" = [
+      "code-of-conduct/table-of-contents.md",
+      "code-of-conduct/article-1.md",
+      "code-of-conduct/article-2.md",
+      "code-of-conduct/article-3.md",
+      "code-of-conduct/article-4.md",
+      "code-of-conduct/article-5.md",
+      "code-of-conduct/article-6.md"
+    ]
   }
 ]
 
@@ -40,7 +51,6 @@ features = [
   "content.footnote.tooltips",
   "content.tabs.link",
   "content.tooltips",
-  "navigation.footer",
   "navigation.indexes",
   "navigation.instant",
   "navigation.instant.prefetch",

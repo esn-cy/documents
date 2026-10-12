@@ -1,3 +1,7 @@
+---
+title: Miscellaneous Provisions
+---
+
 # Chapter H - Miscellaneous Provisions {#chapter-h-miscellaneous-provisions}
 
 ## 29. General Provisions {#general-provisions}

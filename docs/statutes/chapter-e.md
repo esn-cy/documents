@@ -1,3 +1,7 @@
+---
+title: Executive Board
+---
+
 # Chapter E - Executive Board {#chapter-e-executive-board}
 
 ## 15. Executive Board {#executive-board}

@@ -1,3 +1,7 @@
+---
+title: General
+---
+
 # Chapter A - General {#chapter-a-general}
 
 ## 1. Establishment - District - Registration {#establishment-district-registration}
