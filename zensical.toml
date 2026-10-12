@@ -1,0 +1,103 @@
+[project]
+site_url = "https://documents.esncy.org/"
+site_name = "ESN Cyprus Documents"
+site_description = "A centralised repository of all the ESN Cyprus Documents."
+site_author = "ESN Cyprus Board"
+
+copyright = "Copyright &copy; 2026 ESN Cyprus"
+
+repo_url = "https://github.com/esn-cy/documents"
+repo_name = "esn-cy/documents"
+# edit_uri = "edit/main/docs/"
+
+nav = [
+  { "Home" = "index.md" },
+  {
+    "Statutes" = [
+      "statutes/table-of-contents.md",
+      "statutes/chapter-a.md",
+      "statutes/chapter-b.md",
+      "statutes/chapter-c.md",
+      "statutes/chapter-d.md",
+      "statutes/chapter-e.md",
+      "statutes/chapter-f.md",
+      "statutes/chapter-g.md",
+      "statutes/chapter-h.md",
+      "statutes/notes.md"
+    ]
+  }
+]
+
+[project.theme]
+favicon = "images/ESN_Padded.svg"
+logo = "images/ESN_Padded.svg"
+language = "en"
+features = [
+  "announce.dismiss",
+  "content.code.annotate",
+  "content.code.copy",
+  "content.code.select",
+  "content.footnote.tooltips",
+  "content.tabs.link",
+  "content.tooltips",
+  "navigation.footer",
+  "navigation.indexes",
+  "navigation.instant",
+  "navigation.instant.prefetch",
+  "navigation.path",
+  "navigation.sections",
+  "navigation.top",
+  "navigation.tracking",
+  "search.highlight",
+]
+
+# [project.theme.font]
+text = "Lato"
+code = "Jetbrains Mono"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme)"
+toggle.icon = "lucide/sun-moon"
+toggle.name = "Switch to light mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to system preference"
+
+[project.markdown_extensions]
+abbr = {}
+admonition = {}
+attr_list = {}
+def_list = {}
+footnotes = {}
+md_in_html = {}
+toc.permalink = true
+pymdownx.arithmatex.generic = true
+pymdownx.betterem = {}
+pymdownx.caret = {}
+pymdownx.details = {}
+pymdownx.emoji.emoji_generator = "zensical.extensions.emoji.to_svg"
+pymdownx.emoji.emoji_index = "zensical.extensions.emoji.twemoji"
+pymdownx.highlight.anchor_linenums = true
+pymdownx.highlight.line_spans = "__span"
+pymdownx.highlight.pygments_lang_class = true
+pymdownx.inlinehilite = {}
+pymdownx.keys = {}
+pymdownx.magiclink = {}
+pymdownx.mark = {}
+pymdownx.smartsymbols = {}
+pymdownx.superfences.custom_fences = [
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" },
+]
+pymdownx.tabbed.alternate_style = true
+pymdownx.tabbed.combine_header_slug = true
+pymdownx.tasklist.custom_checkbox = true
+pymdownx.tilde = {}
