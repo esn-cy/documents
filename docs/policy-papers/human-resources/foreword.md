@@ -2,6 +2,8 @@
 title: Foreword
 ---
 
+# Foreword {#foreword}
+
 As we begin the academic year 2026-2027, one of our main priorities within ESN Cyprus is to strengthen the involvement,
 motivation and sense of responsibility of our volunteers while maintaining a fair, supportive and inclusive environment
 for all members of the section.

@@ -143,7 +143,28 @@ engagement.
 * [:lucide-circle-arrow-right: 7. Building a Culture of Active Participation](policy-papers/human-resources/section-7.md)
   *(Volunteer recognition, bonding, transparent communication, and collective impact)*
 
-> *Additional operational policy papers will be integrated here as they are developed.*
+#### :lucide-badge-check: Communication Policy: Clear, Consistent & Coordinated (as of GA October 2026)
+
+Authored by the Communication Manager of ESN Cyprus, this paper codifies brand consistency, submission deadlines,
+operational review windows, media privacy under GDPR, and ethical guidelines for AI usage.
+
+* [:lucide-file-text: Table of Contents](policy-papers/communication-policy/table-of-contents.md)
+* [:lucide-book-open: Foreword](policy-papers/communication-policy/foreword.md) *(Message from Milana Babiak,
+  Communication Manager 2026-2027)*
+* [:lucide-circle-arrow-right: 1. Scope & Brand Identity](policy-papers/communication-policy/section-1.md) *(Official
+  channels, access administration, ESN International VIM branding, and 72-hour submission workflows)*
+* [:lucide-circle-arrow-right: 2. Communication Boundaries & Workflows](policy-papers/communication-policy/section-2.md)
+  *(Operational review windows, weekly event deadlines, Social Impact Days, and 6-week promotional milestones for
+  trips)*
+* [:lucide-circle-arrow-right: 3. Editorial Control & Compliance](policy-papers/communication-policy/section-3.md) *(
+  Exclusive sign-off authority of the Communication Manager and correction grace periods)*
+* [:lucide-circle-arrow-right: 4. Media Usage & Data Privacy](policy-papers/communication-policy/section-4.md) *(GDPR
+  compliance, restrictions on personal portfolios, 14-day shared drive download limits, and 24/7 opt-out/takedown
+  forms)*
+* [:lucide-circle-arrow-right: 5. AI Usage](policy-papers/communication-policy/section-5.md) *(Permitted use for
+  proofreading and readability, strict ban on confidential data inputs, and mandatory human accountability)*
+* [:lucide-info: Afterword](policy-papers/communication-policy/afterword.md) *(Official contact addresses, social media
+  links, and team directory)*
 
 ---
 
