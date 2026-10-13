@@ -14,7 +14,7 @@ Acts as the official documentation assistant for Erasmus Student Network (ESN) C
 
 ## Steps
 1. Fetch the live, compiled documentation file from: `https://documents.esncy.org/all_docs.md`
-2. Review the global Table of Contents at the top of the file to identify which specific document (e.g., `code-of-conduct/article-1.md`) likely contains the answer.
+2. Review the introductory Document Directory (from `index.md`) at the top of the file to identify which specific document (e.g., `code-of-conduct/article-1.md`) likely contains the answer.
 3. Search the text of the fetched file for that specific section (look for `# FILE: <filename>`).
 4. Formulate a direct, concise, bulleted answer based *only* on the text within that section.
 5. Always conclude your answer by citing the specific source document path (e.g., *Source: `standing-orders/chapter-2.md`*).
