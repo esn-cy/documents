@@ -1,50 +1,46 @@
 ---
 icon: lucide/bot
 title: AI Assistant
-description: Instead of reading through dozens of documents, you can use our official AI skill.
+description: Instead of reading through dozens of documents, you can use our official AI assistant.
 ---
 
 # ESN Cyprus AI Assistant (`esncy-docs-assistant`)
 
 To help board members, board supporters, and volunteers navigate our legal framework, ESN Cyprus provides an official AI
-skill: **`esncy-docs-assistant`**.
+assistant: **`esncy-docs-assistant`**.
 
-Unlike a regular chatbot that might guess or reference outdated information, this skill gives your AI assistant direct,
-real-time access to our approved regulations.
+Unlike a regular chatbot that might guess or reference outdated information, this assistant has direct, real-time
+access to our approved regulations.
 
 ---
 
-## ✨ What the Skill Does
+## ✨ What the Assistant Does
 
 * 📖 **Always Up to Date:** Directly references the latest regulations compiled automatically from our master branch.
 
 * 🚫 **Zero Guesswork / Hallucinations:** Strict instructions prevent the AI from inventing rules. If a policy is not
   documented, it will tell you.
 
-* 🔗 **Clickable Citations:** Every answer cites the exact statutory chapter, article, and section link on
-  `documents.esncy.org`.
+* 🔗 **Clickable Citations & Deep-Links:** Every answer cites the exact statutory chapter, article, and section link on
+  `documents.esncy.org`, navigating directly to the relevant heading.
 
 ---
 
-## 📥 How to Install the Skill
+## 📥 How to Access & Use It
 
-The skill is built using the open **Agent Skill specification** (`SKILL.md`), making it compatible with any AI
-assistant. Pick the setup you use:
+Pick the setup that fits your workflow:
 
-### Option A: Web Chatbots (ChatGPT, Claude.ai, Microsoft Copilot, Gemini)
+### Option A: Built-in Web Assistant (Recommended)
 
-*No terminal or coding needed - perfect for everyday volunteers.*
+*Zero setup, accounts, or copy-pasting required — available directly on this website.*
 
-1. Open our skill instructions: [**View SKILL.md**](https://documents.esncy.org/skills/SKILL.md).
-2. Select all the text on the page and **Copy** it.
-3. In your chatbot:
+1. Click the **floating chat bubble** (💬) in the bottom-right corner of any page on
+   **[documents.esncy.org](https://documents.esncy.org/)**.
 
-    * **ChatGPT:** Go to **Explore GPTs** ➔ **Create a GPT** ➔ Paste the text into the **Instructions** tab.
-    * **Claude.ai:** Go to **Projects** ➔ **New Project** ➔ Paste the text into **Project Instructions**.
-    * **Gemini:** Go to **Settings** ➔ **Skills** ➔ **Create Manually** ➔ Paste the text into **Instructions**
-    * **General Custom Instructions:** Paste the text into your account's "Custom Instructions" / "System Prompt" field.
+2. Type your question in natural language.
 
-4. Name it **"ESN Cyprus Policy Assistant"** and start chatting!
+3. The assistant will answer with structured bullet points and clickable links that jump straight to the relevant
+   article while keeping the conversation open beside you.
 
 ---
 
@@ -86,9 +82,9 @@ mkdir -p ~/.agents/skills/esncy-docs-assistant && curl -sSL https://documents.es
 
 That's it! Your AI assistant now permanently knows how to look up ESN Cyprus policies.
 
-## 💬 How to Use It
+## 💬 Example Questions
 
-Once installed, you don't need to learn any special commands. Simply ask questions as you normally would:
+Once ready, you don't need to learn any special commands. Simply ask questions as you normally would:
 
 * **Elections & Voting:** "What majority is required to approve an amendment to the Standing Orders?"
 * **Deadlines:** "How many days before the National Assembly must sections submit candidacies for the National Board?"

@@ -9,6 +9,9 @@ copyright = "Copyright &copy; 2026 ESN Cyprus"
 repo_url = "https://github.com/esn-cy/documents"
 repo_name = "esn-cy/documents"
 
+extra_javascript = ["js/ai-chat-widget.js"]
+extra_css = ["css/ai-chat-widget.css"]
+
 nav = [
   { "Home" = "index.md" },
   { "AI Assistant" = "ai-assistant.md" },

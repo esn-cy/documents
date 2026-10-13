@@ -1,0 +1,15 @@
+name = "esncy-docs-assistant"
+main = "src/index.ts"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+MODEL_NAME = "gemini-3.5-flash-lite"
+DOCS_URL = "https://documents.esncy.org/skills/all_docs.md"
+MAX_CHARS_PER_PROMPT = "500"
+RATE_LIMIT_PER_MINUTE = "5"
+RATE_LIMIT_PER_HOUR = "30"
+
+# Note: GEMINI_API_KEY should be set securely via:
+# npx wrangler secret put GEMINI_API_KEY
+# For local dev, put GEMINI_API_KEY="AIza..." in worker/.dev.vars
