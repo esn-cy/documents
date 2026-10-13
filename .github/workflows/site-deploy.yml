@@ -36,8 +36,13 @@ jobs:
               "ai-assistant.md",
           }
 
-          with open("zensical.toml", "rb") as f:
-              config = tomllib.load(f)
+          with open("zensical.toml", "r", encoding="utf-8") as f:
+              raw_toml = f.read()
+
+          normalized_toml = re.sub(r"\{\s*\n\s*", "{ ", raw_toml)
+          normalized_toml = re.sub(r"\n\s*\}", " }", normalized_toml)
+
+          config = tomllib.loads(normalized_toml)
 
           skills_dir = os.path.join("site", "skills")
           os.makedirs(skills_dir, exist_ok=True)
