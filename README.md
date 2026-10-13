@@ -18,6 +18,17 @@ The primary objective of this project is to eliminate fragmented document storag
 - **Full-Text Search:** Instant querying across all chapters, articles, and clauses via static search indexing.
 - **Precise Citation:** Permanent section-level anchors allowing easy cross-referencing in meeting minutes and formal resolutions.
 - **Transparent Version Control:** Every statutory change is traceable through Git commits and pull requests.
+- **AI Agent Integration:** Automated compilation of the entire repository into a single markdown file for live AI knowledge retrieval.
+
+---
+
+## AI & LLM API Endpoint
+
+Alongside the static HTML website, the CI/CD pipeline automatically parses `zensical.toml` and compiles the documents in canonical order into a single, clean Markdown file. This serves as a live, stateless knowledge base for the **esncy-docs-assistant** AI skill.
+
+* **Endpoint:** `https://documents.esncy.org/all_docs.md`
+* **Format:** Raw Markdown (UTF-8)
+* **Refresh Rate:** Updates automatically on every merge to `master`.
 
 ---
 

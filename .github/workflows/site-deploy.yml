@@ -19,9 +19,45 @@ jobs:
       - uses: actions/checkout@v7
       - uses: actions/setup-python@v6
         with:
-          python-version: 3.x
+          python-version: "3.11"
+
       - run: pip install zensical
       - run: zensical build --clean
+
+      - name: Compile LLM Docs matching Zensical navigation
+        run: |
+          python -c '
+          import os
+          import tomllib
+
+          with open("zensical.toml", "rb") as f:
+              config = tomllib.load(f)
+
+          os.makedirs("site", exist_ok=True)
+          
+          with open("site/all_docs.md", "w", encoding="utf-8") as out:
+              out.write("# ESN Cyprus Official Documentation (Compiled)\n")
+              
+              def extract_files(nav_item):
+                  files = []
+                  if isinstance(nav_item, str):
+                      files.append(nav_item)
+                  elif isinstance(nav_item, list):
+                      for item in nav_item:
+                          files.extend(extract_files(item))
+                  elif isinstance(nav_item, dict):
+                      for val in nav_item.values():
+                          files.extend(extract_files(val))
+                  return files
+              
+              for path in extract_files(config.get("project", {}).get("nav", [])):
+                  full_path = os.path.join("docs", path)
+                  if os.path.exists(full_path):
+                      out.write(f"\n\n---\n# FILE: {path}\n---\n\n")
+                      with open(full_path, "r", encoding="utf-8") as infile:
+                          out.write(infile.read())
+          '
+
       - uses: actions/upload-pages-artifact@v5
         with:
           path: site
