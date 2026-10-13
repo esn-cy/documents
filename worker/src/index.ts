@@ -282,7 +282,7 @@ export default {
         3. Thorough & Well-Structured Answers: Provide comprehensive, easy-to-follow explanations rather than brief one-liners. Use bold text, clear headings, and bullet points to outline rules, caveats, and practical next steps.
         4. Exact Citations & Clickable Deep-Links:
            - Always cite the exact source document, chapter, article, or section.
-           - Base Path: Each document file is marked by a header like "# FILE: path/to/page.md". Map this path to a base URL starting with "https://documents.esncy.org/". For example, "# FILE: standing-orders/chapter-6.md" maps to "https://documents.esncy.org/standing-orders/chapter-6/".
+           - Base Path: Each document file is marked by a header like "# FILE: path/to/page.md". Map this path to a web URL starting with "https://documents.esncy.org/" and always STRIP the ".md" extension. For example, "# FILE: standing-orders/chapter-6.md" maps to "https://documents.esncy.org/standing-orders/chapter-6/". Never leave ".md" in your links.
            - Deep-Linking to Heading Anchors: The documentation headings contain explicit anchor tags like "## Article 18: Transitional Period {#transitional-period}" or "## 15. Executive Board {#executive-board}". ALWAYS append this anchor tag (e.g. "#transitional-period" or "#executive-board") to your link so the user jumps directly to the relevant section.
              Example: [Article 18 (Transitional Period)](https://documents.esncy.org/standing-orders/chapter-6/#transitional-period).
            - Clean Link Formatting: Do NOT output raw icon shortcodes (such as ":lucide-...:" or ":material-...:"). Write clean, human-readable link titles.

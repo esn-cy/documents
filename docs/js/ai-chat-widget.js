@@ -340,27 +340,33 @@ function renderMarkdown(rawText) {
   text = text.replace(/:lucide-(circle-)?arrow-(right|forward):/gi, "➜ ");
   text = text.replace(/:[a-z0-9_-]+:/gi, "");
 
-  // 7. Links: [text](url) -> <a> (detect internal links for seamless navigation)
+  // 7. Links: [text](url) -> <a> (handles full URLs, relative paths, .md files, and #anchors)
   text = text.replace(
-      /\[([^\]]+)\]\((https?:\/\/[^\s)]+|\/[^\s)]+)\)/g,
-      (match, rawLabel, url) => {
+      /\[([^\]]+)\]\(([^)\s]+)\)/g,
+      (match, rawLabel, rawUrl) => {
         const label = rawLabel.replace(/:[a-z0-9_-]+:/gi, "").trim();
-        const isInternal =
-            url.startsWith("/") ||
-            url.includes("documents.esncy.org") ||
-            url.includes("localhost") ||
-            url.includes("127.0.0.1");
 
-        if (isInternal) {
-          try {
-            const parsed = new URL(url, window.location.origin);
-            const relativeHref = parsed.pathname + parsed.search + parsed.hash;
-            return `<a href="${relativeHref}" class="esn-internal-link">${label}</a>`;
-          } catch {
-            return `<a href="${url}" class="esn-internal-link">${label}</a>`;
-          }
+        // Check if external link (external domain)
+        const isExternalHttp = rawUrl.startsWith("http://") || rawUrl.startsWith("https://");
+        if (isExternalHttp && !rawUrl.includes("documents.esncy.org") && !rawUrl.includes("localhost") && !rawUrl.includes("127.0.0.1")) {
+          return `<a href="${rawUrl}" target="_blank" rel="noopener noreferrer">${label}</a>`;
         }
-        return `<a href="${url}" target="_blank" rel="noopener noreferrer">${label}</a>`;
+
+        // Normalise internal link: strip domain, strip .md, format /path/#anchor
+        let urlWithoutDomain = rawUrl.replace(/^https?:\/\/(documents\.esncy\.org|localhost(:\d+)?|127\.0\.0\.1(:\d+)?)/, "");
+        const [pathPart, ...hashParts] = urlWithoutDomain.split("#");
+        const hash = hashParts.length ? "#" + hashParts.join("#") : "";
+
+        let cleanPath = pathPart.replace(/\.md$/, "").replace(/\/+$/, "");
+        if (!cleanPath.startsWith("/")) {
+          cleanPath = "/" + cleanPath;
+        }
+        if (!cleanPath.endsWith("/")) {
+          cleanPath += "/";
+        }
+
+        const internalHref = cleanPath + hash;
+        return `<a href="${internalHref}" class="ai-internal-link">${label}</a>`;
       }
   );
 
