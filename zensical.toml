@@ -47,6 +47,17 @@ nav = [
       "standing-orders/chapter-5.md",
       "standing-orders/chapter-6.md"
     ]
+  },
+  {
+    "Our Financial Reality" = [
+      "policy-papers/our-financial-reality/table-of-contents.md",
+      "policy-papers/our-financial-reality/foreword.md",
+      "policy-papers/our-financial-reality/section-1.md",
+      "policy-papers/our-financial-reality/section-2.md",
+      "policy-papers/our-financial-reality/section-3.md",
+      "policy-papers/our-financial-reality/section-4.md",
+      "policy-papers/our-financial-reality/appendix-a1.md",
+    ]
   }
 ]
 

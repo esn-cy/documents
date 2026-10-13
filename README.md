@@ -25,13 +25,12 @@ The primary objective of this project is to eliminate fragmented document storag
 
 The repository is rolling out in consecutive phases according to regulatory hierarchy:
 
-| Document            | Description                                                                                         | Status       |
-|:--------------------|:----------------------------------------------------------------------------------------------------|:-------------|
-| **Statutes**        | The core constitutional charter of ESN Cyprus registered under Cypriot law.                         | **Live**     |
-| **Code of Conduct** | Behavioural expectations, anti-discrimination standards, reporting procedures, and sanctions.       | **Live**     |
-| **Standing Orders** | Operational rules, General Assembly calendar, Board Supporters, OCs, and administrative workflows.  | **Live**     |
-| **Policy Papers**   | Operational guidelines and standard procedures governing internal workflows and section operations. | **Upcoming** |
-
+| Document            | Description                                                                                        | Status                 |
+|:--------------------|:---------------------------------------------------------------------------------------------------|:-----------------------|
+| **Statutes**        | The core constitutional charter of ESN Cyprus registered under Cypriot law.                        | **Live**               |
+| **Code of Conduct** | Behavioural expectations, anti-discrimination standards, reporting procedures, and sanctions.      | **Live**               |
+| **Standing Orders** | Operational rules, General Assembly calendar, Board Supporters, OCs, and administrative workflows. | **Live**               |
+| **Policy Papers**   | Standard operating procedures for internal workflows (*Our Financial Reality* live; more planned). | **Live (In Progress)** |
 ---
 
 ## Tech Stack

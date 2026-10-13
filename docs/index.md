@@ -91,13 +91,33 @@ obligations, structure the General Assembly cycle, and regulate event management
 
 ---
 
-### :lucide-clock: 4. Policy Papers *(Coming Soon)*
+### 4. Policy Papers
 
-**Policy Papers** define the operational rules and standard operating procedures governing internal workflows across ESN
-Cyprus. These include practical regulations for areas such as event management, financial reimbursements, communication,
-and data protection.
+**Policy Papers**  define the operational rules and standard operating procedures governing internal workflows
+across ESN Cyprus. Unlike constitutional texts, these documents provide practical, everyday guidance, operational
+thresholds, and standardised templates for volunteers.
 
-> *Status: Scheduled for integration following Standing Orders.*
+#### :lucide-badge-check: Our Financial Reality (as of NA July 2026)
+
+Authored by the Treasurer of ESN Cyprus, this paper demystifies the network's financial management, establishing
+transparent and accountable rules for budgeting, reimbursements, ticketing, vendor contracts, and event cash flows.
+
+* [:lucide-file-text: Table of Contents](policy-papers/our-financial-reality/table-of-contents.md)
+* [:lucide-book-open: Foreword](policy-papers/our-financial-reality/foreword.md) *(Introductory note by Andreas Michael,
+  Treasurer of ESN Cyprus)*
+* [:lucide-circle-arrow-right: Section 1 – Reimbursements](policy-papers/our-financial-reality/section-1.md) *(
+  Eligibility, local vs. international event expenses, 7-day submission deadlines, and vendor refunds)*
+* [:lucide-circle-arrow-right: Section 2 – Product Sales and Ticketing](policy-papers/our-financial-reality/section-2.md)
+  *(Cashless operations via JCC SoftPOS, mandatory receipts, strict prohibition of personal accounts, and tiered trip
+  ticketing)*
+* [:lucide-circle-arrow-right: Section 3 – Payments and Vendor Agreements](policy-papers/our-financial-reality/section-3.md)
+  *(Merchant agreements over €100, bank/card/cash payment timelines, delivery cutoffs, and cancellation rules)*
+* [:lucide-circle-arrow-right: Section 4 – Event Planning and Budgeting](policy-papers/our-financial-reality/section-4.md)
+  *(Ordinary event caps, Erasmus Wednesdays slush fund, and mandatory 3-step trip budgeting workflows)*
+* [:lucide-file-signature: Appendix A1 – Merchant Payment Agreement](policy-papers/our-financial-reality/appendix-a1.md)
+  *(Standardized legal contract template for commercial vendors)*
+
+> *Additional operational policy papers will be integrated here as they are developed.*
 
 ---
 
