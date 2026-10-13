@@ -58,6 +58,19 @@ nav = [
       "policy-papers/our-financial-reality/section-4.md",
       "policy-papers/our-financial-reality/appendix-a1.md",
     ]
+  },
+  {
+    "Human Resources: Active Together!" = [
+      "policy-papers/human-resources/table-of-contents.md",
+      "policy-papers/human-resources/foreword.md",
+      "policy-papers/human-resources/section-1.md",
+      "policy-papers/human-resources/section-2.md",
+      "policy-papers/human-resources/section-3.md",
+      "policy-papers/human-resources/section-4.md",
+      "policy-papers/human-resources/section-5.md",
+      "policy-papers/human-resources/section-6.md",
+      "policy-papers/human-resources/section-7.md"
+    ]
   }
 ]
 

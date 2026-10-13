@@ -93,9 +93,9 @@ obligations, structure the General Assembly cycle, and regulate event management
 
 ### 4. Policy Papers
 
-**Policy Papers**  define the operational rules and standard operating procedures governing internal workflows
-across ESN Cyprus. Unlike constitutional texts, these documents provide practical, everyday guidance, operational
-thresholds, and standardised templates for volunteers.
+**Policy Papers** define the operational rules and standard operating procedures governing internal workflows
+across ESN Cyprus. Unlike constitutional texts, these documents provide practical, everyday guidelines, operational
+thresholds, and standardised templates for volunteers and teams.
 
 #### :lucide-badge-check: Our Financial Reality (as of NA July 2026)
 
@@ -116,6 +116,32 @@ transparent and accountable rules for budgeting, reimbursements, ticketing, vend
   *(Ordinary event caps, Erasmus Wednesdays slush fund, and mandatory 3-step trip budgeting workflows)*
 * [:lucide-file-signature: Appendix A1 – Merchant Payment Agreement](policy-papers/our-financial-reality/appendix-a1.md)
   *(Standardized legal contract template for commercial vendors)*
+
+---
+
+#### :lucide-badge-check: Human Resources: Active Together! (as of GA October 2026)
+
+Authored by the Vice President for Administration (VPA), this paper establishes the active membership framework,
+structured recruitment and onboarding procedures, and a constructive, human-centred intervention policy for volunteer
+engagement.
+
+* [:lucide-file-text: Table of Contents](policy-papers/human-resources/table-of-contents.md)
+* [:lucide-book-open: Foreword](policy-papers/human-resources/foreword.md) *(Fostering volunteer involvement, shared
+  responsibility, and a supportive team culture)*
+* [:lucide-circle-arrow-right: 1. Active Membership](policy-papers/human-resources/section-1.md) *(Definition of an
+  Active Member: 2 OCs/month, Section Meetings, General Assemblies & Team work)*
+* [:lucide-circle-arrow-right: 2. Participation and Responsibility](policy-papers/human-resources/section-2.md) *(
+  Hands-on experience through Organising Committees, regular meetings, and functional Teams)*
+* [:lucide-circle-arrow-right: 3. Recruitment Process](policy-papers/human-resources/section-3.md) *(Biannual intake
+  deadlines, 30-min VPA interview, mandatory trainings, 1-month trial & practical OC stage)*
+* [:lucide-circle-arrow-right: 4. Onboarding](policy-papers/human-resources/section-4.md) *(Mandatory setup for ESN
+  Galaxy accounts and official ESN Google Workspace emails)*
+* [:lucide-circle-arrow-right: 5. VPA Intervention Policy](policy-papers/human-resources/section-5.md) *(Support before
+  intervention, 1-month renewed trial period, and fair handling of personal/academic circumstances)*
+* [:lucide-circle-arrow-right: 6. When to Contact VPA](policy-papers/human-resources/section-6.md) *(Scope of VPA
+  mediation, handling interpersonal challenges, well-being, and boundaries with private matters)*
+* [:lucide-circle-arrow-right: 7. Building a Culture of Active Participation](policy-papers/human-resources/section-7.md)
+  *(Volunteer recognition, bonding, transparent communication, and collective impact)*
 
 > *Additional operational policy papers will be integrated here as they are developed.*
 
