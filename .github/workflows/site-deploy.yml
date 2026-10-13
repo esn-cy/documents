@@ -23,39 +23,52 @@ jobs:
 
       - run: pip install zensical
       - run: zensical build --clean
+      - run: cp -r skills site/
 
       - name: Compile LLM Docs matching Zensical navigation
         run: |
           python -c '
           import os
+          import shutil
           import tomllib
+          
+          EXCLUDED_FILES = {
+              "ai-assistant.md",
+          }
 
           with open("zensical.toml", "rb") as f:
               config = tomllib.load(f)
 
-          os.makedirs("site", exist_ok=True)
+          skills_dir = os.path.join("site", "skills")
+          os.makedirs(skills_dir, exist_ok=True)
+          if os.path.exists("skills/SKILL.md"):
+              shutil.copy("skills/SKILL.md", os.path.join(skills_dir, "SKILL.md"))
           
-          with open("site/all_docs.md", "w", encoding="utf-8") as out:
-              out.write("# ESN Cyprus Official Documentation (Compiled)\n")
-              
-              def extract_files(nav_item):
-                  files = []
-                  if isinstance(nav_item, str):
-                      files.append(nav_item)
-                  elif isinstance(nav_item, list):
-                      for item in nav_item:
-                          files.extend(extract_files(item))
-                  elif isinstance(nav_item, dict):
-                      for val in nav_item.values():
-                          files.extend(extract_files(val))
-                  return files
-              
-              for path in extract_files(config.get("project", {}).get("nav", [])):
-                  full_path = os.path.join("docs", path)
-                  if os.path.exists(full_path):
-                      out.write(f"\n\n---\n# FILE: {path}\n---\n\n")
-                      with open(full_path, "r", encoding="utf-8") as infile:
-                          out.write(infile.read())
+          def extract_files(nav_item):
+              files = []
+              if isinstance(nav_item, str):
+                  files.append(nav_item)
+              elif isinstance(nav_item, list):
+                  for item in nav_item:
+                      files.extend(extract_files(item))
+              elif isinstance(nav_item, dict):
+                  for val in nav_item.values():
+                      files.extend(extract_files(val))
+              return files
+          
+          compiled_content = ["# ESN Cyprus Official Documentation (Compiled)\n"]
+          for path in extract_files(config.get("project", {}).get("nav", [])):
+              if path in EXCLUDED_FILES or os.path.basename(path) in EXCLUDED_FILES:
+                  continue
+          
+              full_path = os.path.join("docs", path)
+              if os.path.exists(full_path):
+                  compiled_content.append(f"\n\n---\n# FILE: {path}\n---\n\n")
+                  with open(full_path, "r", encoding="utf-8") as infile:
+                      compiled_content.append(infile.read())
+
+          with open(os.path.join(skills_dir, "all_docs.md"), "w", encoding="utf-8") as out:
+              out.write(output_text)
           '
 
       - uses: actions/upload-pages-artifact@v5

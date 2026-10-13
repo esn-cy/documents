@@ -11,6 +11,7 @@ repo_name = "esn-cy/documents"
 
 nav = [
   { "Home" = "index.md" },
+  { "AI Assistant" = "ai-assistant.md" },
   {
     "Statutes" = [
       "statutes/table-of-contents.md",
