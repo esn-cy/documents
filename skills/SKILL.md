@@ -10,7 +10,8 @@ answers based exclusively on the compiled network documentation.
 
 ## When to Use
 
-* A volunteer asks about ESN Cyprus statutes, standing orders, code of conduct and policy papers.
+* A volunteer asks about ESN Cyprus statutes, standing orders, code of conduct, policy papers and public participant
+  terms (trip conditions, membership terms, and privacy policies).
 
 * A user needs clarification on IT coordination, financial administration, event management procedures, human resources
   or communications.
@@ -29,7 +30,8 @@ answers based exclusively on the compiled network documentation.
 4. Formulate a direct, concise, bulleted answer based *only* on the text within that section.
 
 5. Always conclude your answer by citing the specific source document (e.g., *Statutes: Chapter E, Article 15, 15.2*)
-   and a link to the deployed Zensical GitHub Page (e.g. https://documents.esncy.org/statutes/chapter-e/#executive-board).
+   and a link to the deployed Zensical GitHub Page
+   (e.g. https://documents.esncy.org/statutes/chapter-e/#executive-board).
 
 ## Gotchas
 

@@ -87,7 +87,14 @@ nav = [
       "policy-papers/communication-policy/section-5.md",
       "policy-papers/communication-policy/afterword.md",
     ]
-  }
+  },
+     {
+       "Public Documents" = [
+         "public/trips-terms-and-conditions.md",
+         "public/membership-terms-of-service.md",
+         "public/membership-privacy-policy.md"
+       ]
+     }
 ]
 
 [project.theme]

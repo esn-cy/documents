@@ -47,12 +47,13 @@ canonical order into a single, clean Markdown file. This serves as a live, state
 
 The repository is rolling out in consecutive phases according to regulatory hierarchy:
 
-| Document            | Description                                                                                            | Status   |
-|:--------------------|:-------------------------------------------------------------------------------------------------------|:---------|
-| **Statutes**        | The core constitutional charter of ESN Cyprus registered under Cypriot law.                            | **Live** |
-| **Code of Conduct** | Behavioural expectations, anti-discrimination standards, reporting procedures, and sanctions.          | **Live** |
-| **Standing Orders** | Operational rules, General Assembly calendar, Board Supporters, OCs, and administrative workflows.     | **Live** |
-| **Policy Papers**   | Standard operating procedures for internal workflows (*Finances*, *Human Resources*, *Communication*). | **Live** |
+| Document             | Description                                                                                            | Status   |
+|:---------------------|:-------------------------------------------------------------------------------------------------------|:---------|
+| **Statutes**         | The core constitutional charter of ESN Cyprus registered under Cypriot law.                            | **Live** |
+| **Code of Conduct**  | Behavioural expectations, anti-discrimination standards, reporting procedures, and sanctions.          | **Live** |
+| **Standing Orders**  | Operational rules, General Assembly calendar, Board Supporters, OCs, and administrative workflows.     | **Live** |
+| **Policy Papers**    | Standard operating procedures for internal workflows (*Finances*, *Human Resources*, *Communication*). | **Live** |
+| **Public Documents** | Terms of service, trip conditions, and GDPR privacy policies for participants and passholders.         | **Live** |
 
 ---
 

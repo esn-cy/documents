@@ -168,6 +168,19 @@ operational review windows, media privacy under GDPR, and ethical guidelines for
 
 ---
 
+### :lucide-file-text: 5. Public Documents
+
+**Public Documents** contain external-facing terms of service, participant agreements, and data protection policies.
+Unlike internal governance texts, these agreements protect both the organisation and the public, governing event
+participants, digital wallet passholders, and users of ESN Cyprus web services.
+
+* [:lucide-ticket: Trips Terms and Conditions](public/trips-terms-and-conditions.md) *(Ticketing, 14-day refund policy,
+  3-day resale window, bus timings, accommodation conduct, safety car rules, and media waivers)*
+* [:lucide-id-card: Membership Terms of Service](public/membership-terms-of-service.md) *(Terms of use for the ESN
+  Membership Manager platform, digital passes for Apple/Google Wallet, Stripe payments, and third-party integrations)*
+* [:lucide-id-card: Membership Privacy Policy](public/membership-privacy-policy.md) *(GDPR compliance, data handling,
+  automated 14-day document deletion, 1-year account anonymisation, and user data rights)*
+
 ## Key Features
 
 !!! tip "Instant Full-Text Search"
