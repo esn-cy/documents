@@ -1,5 +1,7 @@
 ---
 title: Transitional Clauses
+hide:
+- footer
 ---
 
 # Chapter VI: Transitional Clauses {#transitional-clauses}

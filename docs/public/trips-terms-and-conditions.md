@@ -1,6 +1,8 @@
 ---
 title: Trips Terms & Conditions
 icon: lucide/ticket
+hide:
+   - footer
 ---
 
 # Trips Terms and Conditions {#trips-terms-and-conditions}

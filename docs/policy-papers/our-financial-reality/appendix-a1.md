@@ -1,5 +1,7 @@
 ---
 title: Merchant Payment Agreement
+hide:
+  - footer
 ---
 
 # **MERCHANT PAYMENT AGREEMENT**

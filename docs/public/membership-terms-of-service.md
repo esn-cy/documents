@@ -1,6 +1,8 @@
 ---
 title: Membership Terms of Service
 icon: lucide/id-card
+hide:
+  - footer
 ---
 
 # Terms of Service {#terms-of-service}

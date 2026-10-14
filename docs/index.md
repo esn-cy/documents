@@ -2,6 +2,8 @@
 icon: lucide/book-open-check
 title: ESN Cyprus Legal Documents
 description: Centralised, searchable legal and statutory document repository for Erasmus Student Network Cyprus.
+hide:
+  - footer
 ---
 
 # ESN Cyprus Legal Documents

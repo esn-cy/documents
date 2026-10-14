@@ -1,5 +1,7 @@
 ---
 title: Afterword
+hide:
+  - footer
 ---
 
 # Afterword {#afterword}

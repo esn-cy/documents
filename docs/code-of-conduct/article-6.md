@@ -1,5 +1,7 @@
 ---
 title: General Notes
+hide:
+  - footer
 ---
 
 # 6. General Notes {#general-notes}

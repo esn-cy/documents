@@ -1,6 +1,8 @@
 ---
 title: Membership Privacy Policy
 icon: lucide/id-card
+hide:
+  - footer
 ---
 
 # Privacy Policy {#privacy-policy}

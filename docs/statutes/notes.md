@@ -1,5 +1,7 @@
 ---
 title: Notes
+hide:
+  - footer
 ---
 
 # Notes {#notes}

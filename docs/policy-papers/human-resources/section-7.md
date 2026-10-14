@@ -1,5 +1,7 @@
 ---
 title: Building a Culture of Active Participation
+hide:
+  - footer
 ---
 
 # 7. Building a Culture of Active Participation {#building-a-culture-of-active-participation}

@@ -2,6 +2,8 @@
 icon: lucide/bot
 title: AI Assistant
 description: Instead of reading through dozens of documents, you can use our official AI assistant.
+hide:
+  - footer
 ---
 
 # ESN Cyprus AI Assistant (`esncy-docs-assistant`)
