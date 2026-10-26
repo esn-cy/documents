@@ -2,12 +2,12 @@
 title: Trips Terms & Conditions
 icon: lucide/ticket
 hide:
-   - footer
+  - footer
 ---
 
 # Trips Terms and Conditions {#trips-terms-and-conditions}
 
-_Last Updated: 08/09/2026_
+_Last Updated: 26/10/2026_
 
 By purchasing a ticket and participating in an ESN Cyprus trip, you agree to the following Terms and Conditions. Please
 read them carefully.
@@ -23,10 +23,10 @@ read them carefully.
    weeks (14 days) prior to the event's start date. Exceptions may be considered in severe emergencies at the absolute
    discretion of ESN Cyprus.
 
-4. **Ticket Resales & Transfers:** Tickets may be resold or transferred to another eligible student up to three (3) days
-   before departure. You must officially notify ESN Cyprus of this transfer so that rooming and bus manifests can be
-   updated. Any unofficial deviation, unapproved transfer, or resale outside of these terms will result in immediate
-   ticket cancellation without a refund.
+4. **Ticket Resales & Transfers:** Tickets may be resold or transferred to another eligible student up to five (5)
+   business days before departure. You must officially notify ESN Cyprus of this transfer so that rooming and bus
+   manifests can be updated. Any unofficial deviation, unapproved transfer, or resale outside of these terms will result
+   in immediate ticket cancellation without a refund.
 
 ## 2. Transport, Safety & Health {#transport-safety-health}
 
